@@ -1,3 +1,22 @@
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[project]
+name = "plot_formatter_Amberge"
+version = "0.0.1"
+authors = [
+    { name = "Brett Amberge", email="brett.ambrg@gmail.com" },
+]
+description = "Package for plotting C point data in rectangular and polar coordinates."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Brett-Amberge/plot-formatter.git"
+"Bug Tracker" = "https://github.com/Brett-Amberge/plot-formatter.git/issues"
